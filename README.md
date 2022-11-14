@@ -1,5 +1,5 @@
 # FORM_FIELDS_VALIDATOR
-These page will show how to process PHP forms with security.Proper validation of FORM data is important to protect your FORM from Hackers and Spammers..
+These page will show how to process PHP forms with security. Proper validation of FORM data is important to protect your FORM from Hackers and Spammers..
 
 In this code the " $_SERVER["PHP_SELF"] " is a super global variable that return the filename of the currently executing script.
 
