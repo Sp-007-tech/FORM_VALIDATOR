@@ -1,13 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
+    <title>
+        Validate Form's Fields..    
+    </title
+        
     <Style>
         .error{
             color: #FF0000;
         }
     </Style>
+    
+    
 </head>
+    
+    
 <body>
+    
     <?php
     // Define variable and set the empty values
 
@@ -53,7 +63,6 @@
           }
 
 
-        
           if (empty($_POST["comment"])) {
             $comment = "";
           } else {
@@ -77,7 +86,7 @@
          ?>
 
   
-    <h2>Form Fields Validate !</h2>
+    <h2> Form Fields Validate ! </h2>
     <p><span class="error"> * Required Field</span></p>
     
     <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
@@ -100,6 +109,7 @@
     <span class="error"> * <?php echo $genderErr;?></span><br><br>
 
     <input type="submit" name="button" value="Submit"><br><br>
+        
 </form>
 
 <?php
